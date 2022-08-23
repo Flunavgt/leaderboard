@@ -1,7 +1,34 @@
 body {
+  background-color: bisque;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(196, 248, 248);
 }
 
+h1 {
+  color:blue;
+  display: inline-block;
+}
+
+.masterContainer {
+  display: flex;
+  
+}
+
+.scores {
+  display: flex;
+  border: 1px solid black;
+  width: 15vw;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+#refreshBtn {
+  height: 1.5rem;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
