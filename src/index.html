@@ -12,15 +12,20 @@
 
     <h1>Leaderboard</h1>
     <div class="masterContainer">
+        <div class="scoreInformation">
         <div class="scores">
             <h2 class="titles">Recent Scores</h2>
             <button type="button" id="refreshBtn">Refresh</button>
+            </div>
+            <div id="scoreTable"></div>
         </div>
         <div class="information">
             <h2 class="titles">Add your Score</h2>
-            <input type="text" id="name">
-            <input type="text" id="score">
+            <form action="#" class="form">
+            <input type="text" id="name" placeholder="Your name">
+            <input type="number" id="score" placeholder="Your score">
             <button type="submit">Submit</button>
+        </form>
         </div>
         
        

@@ -20,7 +20,11 @@ h1 {
   border: 1px solid black;
   width: 15vw;
   align-items: baseline;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.scoreTable {
+  width: 15vw;
 }
 
 #refreshBtn {
@@ -28,7 +32,24 @@ h1 {
 }
 
 .information {
+  margin-left: 2rem;
+}
+
+.form {
   display: flex;
   flex-direction: column;
-  margin-left: 2rem;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+input {
+  padding: .2rem;
+  border: 2px solid black;
+}
+
+.form button {
+  width: 3.8rem;
+  background-color: white;
+  
+  border: 2px solid black;
 }
