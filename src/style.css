@@ -1,34 +1,53 @@
 body {
-  background-color: bisque;
+  background-color: rgb(249, 248, 247);
+}
+
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 h1 {
-  color:blue;
-  display: inline-block;
+  display: flex;
+  margin-right: 20rem;
+  font-size: 2.5rem;
+  margin-bottom: 0;
 }
 
 .masterContainer {
   display: flex;
-  
 }
 
 .scores {
   display: flex;
-  border: 1px solid black;
-  width: 15vw;
+  width: 20vw;
   align-items: baseline;
+  margin: 0;
   justify-content: space-between;
 }
 
-.scoreTable {
-  width: 15vw;
+#scoreTable > :nth-child(even) {
+  background-color: rgb(213, 208, 208);
+}
+
+#scoreTable {
+  width: 20vw;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+p {
+  margin: 0;
+  padding: 0.5rem 5px;
 }
 
 #refreshBtn {
   height: 1.5rem;
+  border: 2px solid black;
+  background-color: white;
+  box-shadow: 3px 3px 5px 5px lightgray;
 }
 
 .information {
@@ -43,13 +62,13 @@ h1 {
 }
 
 input {
-  padding: .2rem;
+  padding: 0.2rem;
   border: 2px solid black;
 }
 
 .form button {
   width: 3.8rem;
   background-color: white;
-  
+  box-shadow: 3px 3px 5px 5px lightgray;
   border: 2px solid black;
 }
