@@ -11,9 +11,9 @@
 - CSS
 - webpack
 
-## Live Demo
+## Live Demo soon to be available
 
-[Live Demo Link](https://flunavgt.github.io/ToDoList/)
+[Live Demo Link](#)
 
 ## Getting Started
 
