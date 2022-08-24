@@ -11,14 +11,19 @@ export default class leaderboard {
     this.#id = id;
   }
 
-  addScore(name, score) {
-    this.#leaderboard.push({
-      name,
-      score,
+  // eslint-disable-next-line class-methods-use-this
+  async addScore(user, score, id, newurl) {
+    const dataToSend = JSON.stringify({ score, user });
+    const response = await fetch(`${newurl}games/${id}/scores/`, {
+      mode: 'no-cors',
+      credentials: 'include',
+      method: 'POST',
+      body: dataToSend,
+      headers: {
+        'content-type': 'application/json',
+      },
     });
-  }
 
-  refreshScoreB(leaderboard) {
-    this.#leaderboard = leaderboard;
+    return response.json();
   }
 }

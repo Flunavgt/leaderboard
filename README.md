@@ -2,7 +2,7 @@
 
 # Project Name
 
-> To do List
+> Game API
 
 
 ## Built With
