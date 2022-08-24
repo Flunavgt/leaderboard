@@ -55,7 +55,7 @@ p {
   margin-left: 2rem;
 }
 
-.form {
+.totalInfo {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -67,7 +67,7 @@ input {
   border: 2px solid black;
 }
 
-.form button {
+.totalInfo button {
   width: 3.8rem;
   background-color: white;
   box-shadow: 3px 3px 5px 5px lightgray;
