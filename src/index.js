@@ -4,7 +4,7 @@
 import './style.css';
 
 const newurl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
-const id = 'XJZrqxsxqJ4Bo67bnIka';
+const id = 'i6EDpTJ9iO4YHhbyee9i';
 
 const form = document.querySelector('#totalInfo');
 const nameInput = document.querySelector('#name');
