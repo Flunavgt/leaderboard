@@ -13,7 +13,6 @@ body {
 
 h1 {
   display: flex;
-  /* margin-right: 20rem; */
   font-size: 3.5rem;
   margin-bottom: 0;
   color: aqua;
@@ -74,11 +73,10 @@ p {
   flex-direction: column;
   align-items: flex-end;
   gap: 1rem;
-  width: auto
+  width: auto;
 }
 
 input {
-  padding: 0.2rem;
   border: 2px solid black;
   width: 12rem;
   padding: 0.35rem;
