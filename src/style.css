@@ -15,10 +15,14 @@ h1 {
   display: flex;
   font-size: 3.5rem;
   margin-bottom: 0;
-  color: aqua;
-  font-weight: 600;
-  -webkit-text-stroke-color: white;
-  -webkit-text-stroke-width: 0.2px;
+  color: rgb(19, 138, 228);
+  font-weight: 800;
+  -webkit-text-stroke-color: rgb(12, 11, 11);
+  -webkit-text-stroke-width: 0.05px;
+  border: 1px solid rgb(11, 11, 11);
+  padding: 0.7rem 4rem;
+  border-radius: 15px;
+  background-color: rgb(241, 245, 246);
 }
 
 h2 {
@@ -48,7 +52,7 @@ h2 {
   width: 20vw;
   border: 1px solid black;
   border-radius: 6px;
-  background-color: cadetblue;
+  background-color: rgb(214, 181, 186);
 }
 
 p {
