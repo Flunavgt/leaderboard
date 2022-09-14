@@ -11,9 +11,6 @@
 - CSS
 - webpack
 
-## Live Demo soon to be available
-
-[Live Demo Link](#)
 
 ## Getting Started
 
