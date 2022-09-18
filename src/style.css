@@ -44,19 +44,27 @@ h2 {
   justify-content: space-between;
 }
 
-#scoreTable > :nth-child(even) {
-  background-color: rgb(158, 154, 154);
+#scoreTable {
+  width: 40vw;
+  /* border: 1px solid black; */
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  
 }
 
-#scoreTable {
-  width: 20vw;
-  border: 1px solid black;
-  border-radius: 6px;
-  background-color: rgb(214, 181, 186);
-}
+ .left {
+  background-color: rgb(153, 93, 231);
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+ }
 
 p {
-  margin: 0;
+  margin: 0 1rem;
   padding: 0.5rem 5px;
 }
 
@@ -78,12 +86,14 @@ p {
   align-items: flex-end;
   gap: 1rem;
   width: auto;
+  padding-top: 1.1rem;
 }
 
 input {
   border: 2px solid black;
-  width: 12rem;
-  padding: 0.35rem;
+  width: 18rem;
+  padding: 0.7rem;
+  border-radius: 10px;
 }
 
 .totalInfo button {

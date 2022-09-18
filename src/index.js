@@ -58,7 +58,12 @@ async function getData(url = '') {
 const myScores = () => {
   getData(`${newurl}games/${id}/scores/`).then((res) => {
     document.getElementById('scoreTable').innerHTML = res.result.map((items) => `
-    <p class="eachScore">${items.user}: ${items.score}</p>`).join(' ');
+   <div class="left">
+   <p class="eachScore">${items.user}</p>
+   <span>
+   <p class="numberSc"> ${items.score}</p>
+   </span>
+   </div>`).join(' ');
   });
 };
 
